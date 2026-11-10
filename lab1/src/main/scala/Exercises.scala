@@ -6,7 +6,8 @@ object Exercises {
 
   // 2. Filter Odd Numbers
   def filterOddNumbers(lst: List[Int]): List[Int] = {
-    ???
+    def isOdd(x: Int): Boolean = (x % 2 != 0)
+    lst.filter(isOdd)
   }
 
   // 3. Higher-Order Function
